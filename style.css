@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#07ff5e, #fb00ff, #0373fc, #ffea03d7);
+}
+.jpp img {
+    width: 130px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.jkk3 {
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.jkk4 {
+    margin-left: 880px;
+    margin-top: 10px;
+}
+
+.jkk4 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.jkk {
+    background-color: black;
+    width: 200px;
+    height: 585px;
+    color: white;
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+
+.jkk0 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.jkk1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.jkk1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.jkk2 button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 30px;
+    height: 30px;
+    border: solid 1px white;
+}
+
+.jkk2 {
+    margin-top: 10px;
+}
+
+.jeep {
+    margin-top: 275px;
+    font-size: 20px;
+}
+
+.jeep i {
+    margin-left: 10px;
+}
+
+
+.jkk4 button {
+    padding: 15px 30px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.king {
+    margin-left: 250px;
+    padding-top: 70px;
+}
+
+.jkk5 {
+    display: flex;
+}
+
+.goog {
+    color: cornsilk;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.jkk6 {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.jkk6 p {
+    padding-top: 10px;
+}
+
+.jkk7 img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.play {
+    /* position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s; */
+}
+
+.preview {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 30px;
+    background: linear-gradient(to right, #ff03d1, #0373fc);
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.preview p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.preview button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:458px) {
+    body {
+        height: 10px;
+    }
+    .king{
+        /* width: 1000px; */
+        margin-left: -10px;
+    }
+    .jkk6{
+       
+       
+    }
+    .jkk5{
+        
+    }
+    .jkk7{
+       
+    }
+    .goog{
+        
+    }
+    .jkk{
+        display: none;
+    }
+    .preview{
+       margin-bottom: 300px;
+    }
+    .jkk3{
+       
+    }
+}
